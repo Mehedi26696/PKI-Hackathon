@@ -39,7 +39,7 @@ This project demonstrates a secure communication system between two government m
 ### 1. Clone the repository (or download source)
 
 ```bash
-git clone https://github.com/Mehedi26696/Secure-Document-Exchange-System.git
+git clone https://github.com/Mehedi26696/PKI-Hackathon.git
 cd Secure-Document-Exchange-System
 ```
 
