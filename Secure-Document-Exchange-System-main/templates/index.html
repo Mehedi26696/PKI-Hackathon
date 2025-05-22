@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Receiver - Last XML Received</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2em; }
+        pre { background: #f4f4f4; padding: 1em; border-radius: 5px; }
+        .error { color: red; }
+        .success { color: green; }
+    </style>
+</head>
+<body>
+    <h1>Receiver - Last XML Received</h1>
+    {% if xml %}
+        <h3>Status: <span class="{{ 'error' if error else 'success' }}">{{ status }}</span></h3>
+        <h3>XML Content:</h3>
+        <pre>{{ xml }}</pre>
+    {% else %}
+        <h3>No XML received yet.</h3>
+    {% endif %}
+</body>
+</html>

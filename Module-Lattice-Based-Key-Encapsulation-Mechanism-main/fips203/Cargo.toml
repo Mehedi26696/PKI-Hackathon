@@ -1,0 +1,13 @@
+[package]
+name = "fips203_demo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+fips203 = { git = "https://github.com/integritychain/fips203", branch = "main" }
+aes-gcm = "0.10"
+aes = "0.8"
+sha3 = "0.10"
+hex = "0.4"
+rand = "0.8"
+
